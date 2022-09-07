@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.header{
+    background-color:rgb(130, 153, 195);
+    height:70px;
+    width:auto;
+}
+
+.main{
+    background-color: rgb(158, 182, 233);
+   
+    height:90px;
+    width:auto;
+}
+
+.container{
+    display: grid;
+    height:800px;
+    width:auto;
+    background-color: aliceblue;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+}
+
+.task{
+    margin: 35px;
+    background-color: lightblue;
+   
+
+}
+
